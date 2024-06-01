@@ -4,18 +4,504 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em desenvolvimento...</title>
+    <title> ETEC FHG </title>
+    <!-- icon of page -->
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://fatweb.s3.amazonaws.com/vestibulinhoetec/assets/img/favicon/favicon-32x32.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- CDN bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CDN fancybox-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="imgs/logos/etec-logotipo.svg" width="80" height="80" alt="Logo Etec">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-collapse-custom" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home"> Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cursos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#em_chs">EMT em Ciências Humanas <br> e Sociais</a>
+                        <a class="dropdown-item" href="#em_rh">EMT em Recursos Humanos</a>
+                        <a class="dropdown-item" href="#em_adm">EMT em Administração</a>
+                        <a class="dropdown-item" href="#em_ds">EMT em Desenvolvimento <br> de Sistemas</a>
+                        <a class="dropdown-item" href="#em_mkt">EMT em Marketing</a>
+                        <a class="dropdown-item" href="#adm">Técino em Administração</a>
+                        <a class="dropdown-item" href="#ds">Técino em Desenvolvimento <br> de Sistemas</a>
+                        <a class="dropdown-item" href="#qua">Técino em Qualidade</a>
+                        <a class="dropdown-item" href="#rh">Técino em Recursos Humanos</a>
+                        <a class="dropdown-item" href="#st">Técino em Segurança <br> do Trabalho</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#container_galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="d-flex justify-center aling-center w-100 h-100">
-        Em desenvolvimento...
+    <!-- CTA -->
+    <div class="banner" id="home">
+        <div id="texts">
+            <p id="txt1">Bem-vindo(a) à Etec Ferrúcio <br> Humberto Gazzetta</p>
+            <p id="txt2">Onde começa a sua <br> carreira de sucesso</p>
+            <p id="txt3">Venha ser nosso aluno e estude gratuitamente em uma escola de qualidade, com ótima
+                infraestrutura e
+                que te dará todo o suporte necessário para entrar no mercado de trabalho
+            </p>
+        </div>
     </div>
 
+    <!-- CURSOS -->
+    <!-- EM-CHS -->
+    <h1 id="cursos">Cursos:</h1>
+    <h1 class="first_tittle_curso" id="em_chs">
+        Ensino Médio com Habilitação <br> Profissional em Ciências Humanas e Sociais
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Organizações públicas, privadas e do terceiro setor.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O curso de "Ciências Humanas e Sociais Aplicadas" é uma área de estudo que abrange uma ampla gama de
+                    disciplinas relacionadas à compreensão e análise das sociedades humanas, comportamento social e
+                    questões
+                    relacionadas ao desenvolvimento humano.
+                    <br><br>
+                    O foco deste curso é o estudo do homem do ponto de vista social, cultural e histórico, mobilizando
+                    esforços
+                    na resolução de problemas contemporâneos. Ao fim do curso, o aluno poderá prosseguir estudos em
+                    nível
+                    superior preferencialmente em áreas relacionadas as ciências humanas, tais como Administração,
+                    Direito,
+                    Economia, Filosofia, Geografia, História, Jornalismo, entre outros.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Renata Santana Campagnolo</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Manhã</p>
+                <p>Duração: 3 anos</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- EM-RH -->
+    <h1 class="tittle-curso" id="em_rh">
+        Ensino Médio com Habilitação <br> Profissional em Recursos Humanos
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Organizações públicas, privadas e do terceiro setor.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O técnico em recursos humanos é o profissional que organiza a rotina diária da gestão de pessoas e
+                    auxilia no processo de recrutamento e seleção pessoal. Ele elabora documentos administrativos,
+                    confere a frequência, os benefícios, os afastamentos e as transferências de funcionários. Realiza
+                    contratação e registro de funcionários conforme a legislação trabalhista e efetua lançamentos de
+                    folha de pagamento.
+                    <br><br>
+                    O profissional contribui para o controle da vida funcional dos colaboradores da organização, bem
+                    como o desenvolvimento pessoal e profissional. Além disso, sugere a melhoria nos processos
+                    administrativos da gestão de pessoas, atuando de maneira colaborativa com objetivo de otimizar o uso
+                    de recursos disponíveis.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Renata Santana Campagnolo</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Manhã</p>
+                <p>Duração: 3 anos</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- EM-ADM -->
+    <h1 class="tittle-curso" id="em_adm">
+        Ensino Médio Integrado <br> ao Técnico em Administração
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Organizações públicas, privadas e do terceiro setor.</p>
+                <br>
+                <p>O Técnico em ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos,
+                    humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla
+                    materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes e elabora
+                    fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na
+                    condução das relações e atividades.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O técnico em administração é o profissional que adota postura ética na execução da rotina
+                    administrativa, na elaboração do planejamento da produção e materiais, recursos humanos, financeiros
+                    e mercadológicos.
+                    Ele realiza atividades de controles organizacional e auxilia nos processos de direção utilizando
+                    ferramentas da informática básica. Fomenta ideias e práticas empreendedoras desempenha suas
+                    atividades observando as normas de segurança, saúde e higiene do trabalho, bem como as de
+                    preservação ambiental.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Roseli Matheus</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Integral</p>
+                <p>Duração: 3 anos</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- EM-DS -->
+    <h1 class="tittle-curso" id="em_ds">
+        Ensino Médio Integrado ao <br> Técnico em Desenvolvimento de Sistemas
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Empresas e departamentos de desenvolvimento de sistemas em organizações governamentais e não
+                    governamentais, podendo também atuar como profissional autônomo.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O técnico em desenvolvimento de sistemas é o profissional que analisa e desenvolve sistemas
+                    computacionais; modela, implementa e mantém banco de dados; realiza testes de programas de
+                    computador e mantém os registros para a análise do desempenho do sistema desenvolvido.
+                    <br><br>
+                    Além disso, ele aplica princípios e paradigmas de programação para solucionar problemas, elabora a
+                    documentação do sistema e executa manutenção contínua dos programas do computador.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Roseli Matheus</p>
+                <p>Eixo Tecnológico: Informação e Comunicação</p>
+                <p>Período: Integral</p>
+                <p>Duração: 3 anos</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- EM-MKT -->
+    <h1 class="tittle-curso" id="em_mkt">
+        Ensino Médio Integrado <br> ao Técnico em Marketing
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Instituições públicas, privadas e do terceiro setor; comércio e empresas de consultoria; profissional
+                    autônomo.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O técnico em marketing é o profissional ético que colabora na elaboração do plano de marketing da
+                    empresa de acordo com seu ramo ou porte, tendo a capacidade de planejar e elaborar estratégias de
+                    venda no mercado.
+                    <br><br>
+                    Além disso, ele executa tarefa de análise das vendas, preços e produtos; cuida das políticas de
+                    comunicação da empresa como a fidelização de clientes, relação com fornecedores ou outras entidades;
+                    elabora apresentações dos produtos com foco na venda e participa na elaboração e realização de
+                    estudos de mercado.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Renata Santana Campagnolo</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Integral</p>
+                <p>Duração: 3 anos</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- ADM -->
+    <h1 class="tittle-curso" id="adm">
+        Técnico em Administração
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Empresas privadas, seja de comércio, serviço ou indústria, órgãos públicos (prefeituras, secretarias
+                    de governo, ministérios do governo federal etc.) e ONGs.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O Técnico em Administração é o profissional que participa da gestão dos recursos mercadológicos,
+                    humanos, financeiros, materiais e produtivos. Ele executa as rotinas administrativas, controla os
+                    insumos disponíveis, acompanha níveis de eficiência e produtividade e presta atendimento a clientes.
+                    <br><br>
+                    O profissional deve trabalhar em equipe, de forma a sempre buscar otimizar os recursos disponíveis,
+                    propondo inovações e adotando uma postura ética na condução das relações e atividades.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Alexandre Réstio</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Noturno</p>
+                <p>Duração: 1 ano e 6 meses</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- DS -->
+    <h1 class="tittle-curso" id="ds">
+        Técnico em Desenvolvimento de Sistemas
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Empresas de tecnologia, organizações governamentais, instituições financeiras, startups e como
+                    freelancers.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O profissional em desenvolvimento de sistemas é um especialista em criar, manter e aprimorar sistemas
+                    de software e aplicativos. Esses profissionais desempenham um papel fundamental na indústria de
+                    tecnologia da informação e são responsáveis por transformar requisitos de negócios em soluções de
+                    software funcionais.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Ricardo Corrêa dos Santos</p>
+                <p>Eixo Tecnológico: Informação e Comunicação</p>
+                <p>Período: Noturno</p>
+                <p>Duração: 1 ano e 6 meses</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- QUALIDADE -->
+    <h1 class="tittle-curso" id="qua">
+        Técnico em Qualidade
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Organizações públicas, privadas e do terceiro setor.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O TÉCNICO EM QUALIDADE é o profissional que executa rotinas administrativas de acordo com normas e
+                    procedimentos técnicos de qualidade e de segurança específicos da área de atuação. Auxilia no
+                    desenvolvimento de manuais, procedimentos, diagnósticos e relatórios de processos de controle da
+                    qualidade da organização. Inspeciona e realiza testes em processos, produtos e serviços.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Alexandre Réstio</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Noturno</p>
+                <p>Duração: 1 ano</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- RH -->
+    <h1 class="tittle-curso" id="rh">
+        Técnico em Recursos Humanos
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>No setor de Recursos Humanos ou na área administrativa de empresas públicas e privadas de qualquer
+                    segmento, empresas de treinamento e desenvolvimento e agências de emprego.</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>A especificidade do Curso Técnico em Recursos Humanos é executar rotinas administrativas de pessoal
+                    com base na Legislação Trabalhista e Previdenciária. Auxiliar no controle e avaliação de subsistemas
+                    de gerenciamento e contribuir para a implementação das estratégias organizacionais. Administrar
+                    pessoal, promover ações de treinamento, identificar e sugerir plano de benefícios e atuar nos
+                    processos de recrutamento, seleção e integração, assessorar as relações de trabalho e sistemas de
+                    avaliação de desempenho.
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Ana Cristina Souza Hatano</p>
+                <p>Eixo Tecnológico: Gestão e Negócios</p>
+                <p>Período: Noturno</p>
+                <p>Duração: 1 ano e 6 meses</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- ST -->
+    <h1 class="tittle-curso" id="st">
+        Técnico em Segurança do Trabalho
+    </h1>
+    <section class="curso">
+        <aside class="aside1">
+            <div class="mercado-de-trabalho">
+                <h1 class="tittle-red">Mercado de trabalho</h1>
+                <p>Construção civil, indústrias, hospitais, mineradoras, áreas agrícolas, portuárias, entre outras</p>
+            </div>
+            <div class="o-que-o-profissional-faz">
+                <h1 class="tittle-red">O que o profissional faz</h1>
+                <p>O Técnico em Segurança do Trabalho precisa ficar atento aos riscos que envolvem a empresa e seu
+                    pessoal, desenvolvendo ações educativas, fiscalizando o uso dos EPIs e EPCs e promovendo programas
+                    de prevenção de acidentes.
+                    <br><br>
+                    A especificidade do Curso Técnico em Segurança do Trabalho tem formação específica que envolve toda
+                    a parte de segurança da empresa com análise constante do cumprimento das normas técnicas brasileiras
+                    e regulamentadoras
+                </p>
+            </div>
+        </aside>
+        <aside class="aside2">
+            <div class="detalhes-do-curso">
+                <h1 class="tittle-red">Detalhes do curos</h1>
+                <p>Coordenador: Vanessa Érica Della Negra Barbosa</p>
+                <p>Eixo Tecnológico: Segurança</p>
+                <p>Período: Noturno</p>
+                <p>Duração: 1 ano e 6 meses</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- Galery -->
+    <div class="container" id="container_galeria">
+        <div class="row">
+            <div class="col-lg-12 text-center my-2">
+                <h3 id="tittle_galery">Galeria</h3>
+            </div>
+        </div>
+        <div class="item row">
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/1.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/1.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/4.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/4.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/6.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/6.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/2.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/2.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/7.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/7.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/8.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/8.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/10.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/10.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/5.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/5.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/3.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/3.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/9.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/9.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/11.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/11.jpeg" alt="">
+                </a>
+            </div>
+            <div class="item col-lg-3 col-md-4 col-6 col-sm-6">
+                <a href="imgs/galeria/12.jpeg" data-fancybox="gallery">
+                    <img class="img-fluid" src="imgs/galeria/12.jpeg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
     <script src="script.js"></script>
 </body>
 

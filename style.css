@@ -1,2 +1,221 @@
 @charset "UTF-8";
 
+/* RESET CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+
+:root {
+    --Gray: #4a555c;
+    --White: #fff;
+    --Red: #b20000;
+    --Yellow: #ffb100;
+}
+
+/* STYLING */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-collapse-custom {
+    margin-left: 40px;
+}
+
+.banner {
+    background-image: url(imgs/img_carrossel1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#texts {
+    width: 100vw;
+    margin-top: 106px;
+    margin-left: 40px;
+}
+
+#txt1 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 15px;
+    color: var(--White);
+}
+
+#txt2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 60px;
+    color: var(--White);
+    padding-bottom: 20px;
+}
+
+#txt3 {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 500px;
+    color: var(--White);
+}
+
+#cursos {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--Red);
+}
+
+.first_tittle_curso {
+    text-align: center;
+    font-weight: bold;
+    max-width: 87vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tittle-curso {
+    text-align: center;
+    font-weight: bold;
+    max-width: 87vw;
+    max-width: 87vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tittle-red {
+    color: var(--Red);
+}
+
+.curso {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 87vw;
+    margin: 0 auto;
+}
+
+.aside1 {
+    max-width: 60%;
+}
+
+.mercado-de-trabalho {
+    margin-bottom: 20px;
+}
+
+.aside2 {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container_galeria {
+    margin-top: 50px;
+}
+
+#tittle_galery {
+    margin-bottom: 30px;
+    color: var(--Red);
+}
+
+.item .item {
+    padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #texts {
+        width: 100vw;
+        margin-inline: 30px;
+    }
+
+    #txt1 {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        padding-bottom: 7px;
+        color: var(--White);
+    }
+
+    #txt2 {
+        font-size: 33px;
+        font-weight: 500;
+        line-height: 45px;
+        color: var(--White);
+        padding-bottom: 10px;
+    }
+
+    #txt3 {
+        font-size: 13px;
+        font-weight: bold;
+        max-width: 300px;
+        color: var(--White);
+    }
+
+    .curso {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first_tittle_curso {
+        font-size: 1.7rem;
+    }
+
+    .tittle-curso {
+        font-size: 1.7rem;
+    }
+
+    .aside1 {
+        max-width: 100%;
+    }
+
+    .aside2 {
+        max-width: 100%;
+    }
+}
