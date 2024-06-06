@@ -162,10 +162,68 @@ h1 {
 #tittle_galery {
     margin-bottom: 30px;
     color: var(--Red);
+    font-size: 2rem;
 }
 
 .item .item {
     padding: 12px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    max-width: 87vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tittle_contato {
+    color: var(--Red);
+    font-size: 2rem;
+}
+
+#tittle_nome,
+#tittle_email,
+#tittle_comentario {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#name,
+#email,
+#message {
+    width: 400px;
+    margin: 0 auto;
+    resize: none;
+    border: 2px solid var(--Red);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    transition: outline-color .5s;
+    outline-color: var(--Yellow);
+}
+
+#btn_enviar {
+    padding: 15px 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d45656;
+    transition: .2s;
+}
+
+#btn_enviar:hover {
+    background-color: var(--Yellow);
 }
 
 .footer {
@@ -227,5 +285,19 @@ h1 {
 
     .aside2 {
         max-width: 100%;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 200px;
+    }
+
+    #btn_enviar {
+        padding: 10px 25px;
+    }
+
+    .footer h3 {
+        font-size: 0.8rem;
     }
 }
